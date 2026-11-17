@@ -1,0 +1,12 @@
+description: Customer Microservice GET Contract
+
+request:
+  method: GET
+  url: /ms1/add
+  queryParameters:
+    a: "5"
+    b: "10"
+
+response:
+  status: 200
+  body: 15
